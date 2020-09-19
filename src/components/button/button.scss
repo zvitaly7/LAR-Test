@@ -1,0 +1,66 @@
+.btn {
+  display: block;
+  margin: 5px;
+  width: 200px;
+  padding: 5px;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+
+  &:hover {
+    background-color: #363655;
+  }
+}
+
+.edit {
+  background-color: #ff6a00;
+}
+
+.delete {
+  background-color: #a50400;
+}
+
+.confirm-modal-yes {
+  padding: 10px;
+  width: 50px;
+  background-color: #13900b;
+  color: #eef2ff;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  cursor: pointer;
+
+  &:active {
+    border: none;
+    outline: none;
+    background-color: #ff4b00;
+  }
+
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
+
+.confirm-modal-no {
+  padding: 10px;
+  width: 50px;
+  background-color: #770200;
+  color: #eef2ff;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+
+  &:active {
+    border: none;
+    outline: none;
+    background-color: #ff4b00;
+  }
+
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
+.controls{
+  margin: 15px;
+}
